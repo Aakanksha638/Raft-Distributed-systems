@@ -11,7 +11,7 @@ enum  RaftState {
 }
 
 fn main () {
-    let RaftNode {
+    let node = RaftNode {
         id: 1,
         current_term: 1,
         state: RaftState::Follower,
